@@ -5,42 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MHD MOUNZER DIAB - Personal Website</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
-        <h1>Welcome to My Personal Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>MHD MOUNZER DIAB</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                    <li><a href="#portfolio"><i class="fas fa-briefcase"></i> Portfolio</a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section id="home">
-        <h2>Home</h2>
-        <p>Hello! My name is [MHD MOUNZER DIAB], and this is my personal website.</p>
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome!</h2>
+            <p>Hello, I'm <strong>MHD MOUNZER DIAB</strong>.  
+            This is my personal website — a space where I share my projects, experience, and goals.</p>
+            <a href="#portfolio" class="btn">See My Work</a>
+        </div>
     </section>
 
     <section id="about">
-        <h2>About Me</h2>
-        <p>[Detailed information about yourself]</p>
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I'm a business administration student at Istanbul University with experience in tourism and export industries.  
+            I speak Arabic, English, and Turkish fluently, and I’m passionate about entrepreneurship and e-commerce.</p>
+        </div>
     </section>
 
     <section id="portfolio">
-        <h2>Portfolio</h2>
-        <p>[Showcase your work or projects]</p>
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Business Project</h3>
+                    <p>Developed an export business strategy for private-label biscuit products targeting international markets.</p>
+                </div>
+                <div class="project-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Personal Website</h3>
+                    <p>This website is part of my personal journey in web design and digital branding.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="contact">
-        <h2>Contact</h2>
-        <p>You can reach me at: [Your Email]</p>
+        <div class="container">
+            <h2>Contact</h2>
+            <p>You can reach me via email or social media:</p>
+            <ul class="contact-info">
+                <li><i class="fas fa-envelope"></i> mhd.mounzer.diab.01@gmail.com</li>
+                <li><i class="fab fa-linkedin"></i> <a href="#">LinkedIn</a></li>
+                <li><i class="fab fa-instagram"></i> <a href="#">Instagram</a></li>
+            </ul>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+        <p>&copy; 2025 MHD MOUNZER DIAB. All rights reserved.</p>
     </footer>
 </body>
 </html>
